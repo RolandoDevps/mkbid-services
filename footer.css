@@ -1,0 +1,151 @@
+/*style footer*/
+
+.footer {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-footer {
+    position: relative;
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 0 0;
+    background-position: center 25px;
+}
+
+.bottom-footer {
+    position: relative;
+    background: #555555;
+    padding: 25px 0px 25px 0px;
+}
+
+.texte {
+    text-align: center;
+}
+
+.footer-widget.contact-widget {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item {
+    position: relative;
+    padding-right: 15px;
+}
+
+.footer-widget.contact-widget ul {
+    display: flex;
+    align-items: center;
+}
+
+.wrap-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-footer-h6 .links-widget .list li a {
+    font-size: 16px;
+    color: #757575;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.social-links span {
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+    background: #e5e5e5;
+    border-radius: 35px;
+    color: #949494;
+    font-size: 22px;
+    transition: all 700ms ease;
+    transform: rotate(0deg);
+    transition: all 700ms ease;
+    margin-right: 20px;
+}
+
+.footer-widget a {
+    font-size: 16px;
+    color: #000000;
+    line-height: 36px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-widget .text p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.logo-widget p {
+    margin-top: 30px;
+}
+
+.contact-widget p {
+    margin-top: 0;
+}
+
+.anim-images span {
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+.anim-images span.to-anim {
+    top: 20%;
+    left: 50%;
+    animation: translated 10s linear infinite;
+}
+
+@-webkit-keyframes translated {
+    0% {
+        transform: translateX(-150%);
+    }
+    50% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(-150%);
+    }
+}
+.social-links span:hover,
+.reseau-links span:hover {
+    transform: rotate(360deg);
+    color: #00c6e3;
+}
+
+.wrap-bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title h2 a {
+    font-size: 40px;
+    color: #007bff;
+}
+
+.footer-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-bloc{
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .footer-item{
+        flex: 100% !important;
+        max-width: 100% !important;
+    }
+}

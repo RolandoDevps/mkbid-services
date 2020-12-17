@@ -1,0 +1,154 @@
+.wrap-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-logo img, .wrap-logo svg {
+    width: 100%;
+    /* height: 125px; */
+}
+
+.col-3.service-logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col.bloc-service {
+    /* box-shadow: 0px 3px 8px 0px rgb(225 219 219); */
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.row.wrap-service{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.wrap-service .bloc-service:first-child {
+    margin-right: 50px;
+}
+
+.wrap-brief h3 {
+    font-size: 20px;
+}
+
+.wrap-brief p {
+    margin: 0;
+}
+
+.wrap-service-lieb {
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.wrap-service-lieb h3 {
+    font-size: 40px;
+}
+
+.wrap-service-lieb p {
+    font-size: 20px;
+    color: #00c3ff;
+}
+
+.wrap-brief.child1 h3 {
+    color: #ba83fb;
+}
+
+.wrap-brief.child2 h3 {
+    color: #ff62a6;
+}
+
+.wrap-brief.child3 h3 {
+    color: #23a9fc;
+}
+
+.wrap-brief.child4 h3 {
+    color: #fd5e67;
+}
+
+.wrap-brief.child5 h3 {
+    color: #00d07d;
+}
+
+.wrap-brief.child6 h3 {
+    color: #f7a732;
+}
+
+.bloc-service .row {
+    margin: 0;
+}
+
+.row.service-details {
+    margin-top: 20px;
+}
+
+.row.service-logo {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .row.wrap-service{
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+/**bloc banniere*/
+
+.wrapper-banniere {
+}
+
+.image-banniere img {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.row.wrap-banniere {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.image-banniere {
+    width: 100%;
+}
+
+.text-banniere {
+    width: 600px;
+    position: absolute;
+    left: 9%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.text-banniere h3 {
+    font-size: 40px;
+}
+
+.text-banniere p {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.breacktrumps {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 9%;
+    top: 20px;
+}
+
+.breacktrumps p {
+    font-size: 14px;
+}
