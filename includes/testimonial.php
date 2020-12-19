@@ -6,10 +6,15 @@
         </div>
     </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="d-block w-100">
+    <div id="carouselExampleIndicators" class="wrap-testimonial carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" style="display: none">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="row wrap-caroussel">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xlg-4 caroussel-child">
+                <div class="d-block ">
                     <div class="wrap-testimonial-image">
                         <div class="test_image">
                             <img src="images/testimonial1.jpg" alt="image">
@@ -24,8 +29,8 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="d-block w-100">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xlg-4 caroussel-child">
+                <div class="d-block ">
                     <div class="wrap-testimonial-image">
                         <div class="test_image">
                             <img src="images/testimonial2.jpg" alt="image">
@@ -40,8 +45,8 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="d-block w-100">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xlg-4 caroussel-child">
+                <div class="d-block ">
                     <div class="wrap-testimonial-image">
                         <div class="test_image">
                             <img src="images/testimonial3.jpg" alt="image">
@@ -57,14 +62,8 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </div> 
+
+
 
