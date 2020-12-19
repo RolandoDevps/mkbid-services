@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- js link -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+
     <link rel="stylesheet" href="services_v2.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="testimonial.css">
@@ -16,9 +19,6 @@
     <!-- css fontawesome -->
     <link rel="stylesheet" href="fontawesome-all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- js link -->
-    <script src="js/jquery-1.11.2.min.js"></script>
     
 </head>
 <body>
@@ -43,6 +43,7 @@
             <div class="section-divider"></div>
         </div>
 
+        <!-- bloc-services-mkbid -->
         <div class="wrapper-services">
             <div class="container bloc-services">
 
@@ -52,137 +53,146 @@
                     </div>
                 </div>
 
-                <div class="row wrap-service">
-
-                    <div class="col bloc-service">
-                        <div class="row service-logo">
-                            <div class="wrap-logo child1">
-                                <img src="images/service-1.png" alt="">
+                <div id="carouselServicesControls" class="carousel slide container" data-ride="carousel">
+                    <ol class="carousel-indicators" style="display: none">
+                        <li data-target="#carouselServicesControls" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselServicesControls" data-slide-to="1"></li>
+                        <li data-target="#carouselServicesControls" data-slide-to="2"></li>
+                        <li data-target="#carouselServicesControls" data-slide-to="3"></li>
+                        <li data-target="#carouselServicesControls" data-slide-to="4"></li>
+                        <li data-target="#carouselServicesControls" data-slide-to="5"></li>
+                    </ol>
+                    <div class="wrap-service">
+                        <div class="responsive-show item active">
+                            <div class="col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="wrap-logo child1">
+                                        <img src="images/service-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief child1">
+                                    <div class="row">
+                                        <h3>Managment & Marketing</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Learn more <i class="fa fa-angle-right"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="wrap-brief child1">
-                            <div class="row">
-                                <h3>Managment & Marketing</h3>
-                            </div>
-                            <div class="row">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                        <div class="responsive-show item">
+                            <div class="col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="wrap-logo child2">
+                                        <img src="images/service-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief child2">
+                                    <div class="row">
+                                        <h3>Technical SEO Audit</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Learn more <i class="fa fa-angle-right"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="row service-details">
-                            <a href="">Learn more <i class="fa fa-angle-right"></i></a>
+                        <div class="responsive-show item">
+                            <div class="col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="wrap-logo child6">
+                                        <img src="images/service-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief child6">
+                                    <div class="row">
+                                        <h3>Reports & Analytics</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Learn more <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="responsive-show item">
+                            <div class="col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="wrap-logo child3">
+                                        <img src="images/service-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief child3">
+                                    <div class="row">
+                                        <h3>Strategy & Research</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Learn more <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="responsive-show item">
+                            <div class="col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="wrap-logo child4">
+                                        <img src="images/service-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief child4">
+                                    <div class="row">
+                                        <h3>Onsite SEO</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Learn more <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="responsive-show item">
+                            <div class="col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="wrap-logo child6">
+                                        <img src="images/service-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief child6">
+                                    <div class="row">
+                                        <h3>Reports & Analytics</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Learn more <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col bloc-service">
-                        <div class="row service-logo">
-                            <div class="wrap-logo child2">
-                                <img src="images/service-2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="wrap-brief child2">
-                            <div class="row">
-                                <h3>Technical SEO Audit</h3>
-                            </div>
-                            <div class="row">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
-                            </div>
-                        </div>
-                        <div class="row service-details">
-                            <a href="">Learn more <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    
                 </div>
 
-                <div class="row wrap-service">
-
-                    <div class="col bloc-service">
-                        <div class="row service-logo">
-                            <div class="wrap-logo child3">
-                                <img src="images/service-3.png" alt="">
-                            </div>
-                        </div>
-                        <div class="wrap-brief child3">
-                            <div class="row">
-                                <h3>Strategy & Research</h3>
-                            </div>
-                            <div class="row">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
-                            </div>
-                        </div>
-                        <div class="row service-details">
-                            <a href="">Learn more <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col bloc-service">
-                        <div class="row service-logo">
-                            <div class="wrap-logo child4">
-                                <img src="images/service-4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="wrap-brief child4">
-                            <div class="row">
-                                <h3>Onsite SEO</h3>
-                            </div>
-                            <div class="row">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
-                            </div>
-                        </div>
-                        <div class="row service-details">
-                            <a href="">Learn more <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="row wrap-service">
-
-                    <div class="col bloc-service">
-                        <div class="row service-logo">
-                            <div class="wrap-logo child5">
-                                <img src="images/service-5.png" alt="">
-                            </div>
-                        </div>
-                        <div class="wrap-brief child5">
-                            <div class="row">
-                                <h3>Media Promotion</h3>
-                            </div>
-                            <div class="row">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
-                            </div>
-                        </div>
-                        <div class="row service-details">
-                            <a href="">Learn more <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col bloc-service">
-                        <div class="row service-logo">
-                            <div class="wrap-logo child6">
-                                <img src="images/service-6.png" alt="">
-                            </div>
-                        </div>
-                        <div class="wrap-brief child6">
-                            <div class="row">
-                                <h3>Reports & Analytics</h3>
-                            </div>
-                            <div class="row">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
-                            </div>
-                        </div>
-                        <div class="row service-details">
-                            <a href="">Learn more <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
             </div>
         </div>
-
+        <!-- end bbloc-services-mkbid -->
         <div class="wrapper-section-divider">
             <div class="section-divider"></div>
         </div>
-
+        <!-- bloc-customer-success -->
         <div class="wrapper-customer-success">
             <div class="container">
 
@@ -235,11 +245,74 @@
                         </div>
                     </div>
                 </div>
-                
+                <div class="wrap-see-more-success">
+                    <a href="#">Find more customer success stories</a>
+                </div>
 
             </div>
         </div>
+        <div class="wrapper-customer-success-responsive">
+            <div class="container">
 
+                <div class="row">
+                    <div class="wrap-service-lieb">
+                        <h3>See how customers are succeeding with MK BID</h3>
+                    </div>
+                </div>
+                <div id="carouselSuccessControls" class="carousel slide container wrap-customer-success-responsive" data-ride="carousel">
+                    <ol class="carousel-indicators" style="display: none">
+                        <li data-target="#carouselSuccessControls" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSuccessControls" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100 col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="customer-logo">
+                                        <img src="images/customer-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief">
+                                    <div class="row">
+                                        <h3>some title</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Watch the video <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block w-100 col bloc-service">
+                                <div class="row service-logo">
+                                    <div class="customer-logo">
+                                        <img src="images/customer-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="wrap-brief">
+                                    <div class="row">
+                                        <h3>some title</h3>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
+                                    </div>
+                                </div>
+                                <div class="row service-details">
+                                    <a href="">Watch the video <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-see-more-success">
+                    <a href="#">Find more customer success stories</a>
+                </div>
+            </div>
+        </div>
+        <!-- end bloc-customer-success -->
         <div class="wrapper-section-divider">
             <div class="section-divider"></div>
         </div>
@@ -252,6 +325,30 @@
 
         <?php include('includes/footer.php') ?>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+         $(document).load($(window).bind("resize", checkWidthBlocServices));
+
+        function checkWidthBlocServices(){
+            if (window.matchMedia('(max-width: 768px)').matches)
+            {
+                $(".wrap-service").addClass("carousel-inner");
+                $(".responsive-show").addClass("carousel-item");
+                $(".wrap-test-caroussel").addClass("carousel-inner");
+                $(".responsive-test-show").addClass("carousel-item");
+            }
+            else{
+                $(".wrap-service").removeClass("carousel-inner");
+                $(".responsive-show").removeClass("carousel-item");
+                $(".wrap-test-caroussel").removeClass("carousel-inner");
+                $(".responsive-test-show").removeClass("carousel-item");
+            }
+        }
+    </script>
     
 </body>
 </html>

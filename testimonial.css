@@ -31,6 +31,7 @@
 .wrap-testimonial .row {
     flex-wrap: nowrap;
     overflow: hidden;
+    margin: 0 !important;
 }
 
 .wrap-testimonial {
@@ -38,18 +39,34 @@
 }
 
 
-.wrap-testimonial ol.carousel-indicators {
+ol.carousel-indicators {
     bottom: -10px;
 }
 
-.wrap-testimonial ol.carousel-indicators li {
+ol.carousel-indicators li {
     background: #ddd;
 }
-
-.wrap-testimonial ol.carousel-indicators li.active {
+ol.carousel-indicators li.active {
     background: grey;
 }
 
-.row.wrap-caroussel .caroussel-item {
-    display: block !important;
+.wrap-testimonial-image {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.wrap-testimonial-image .test_name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+span.test_name_cust {
+    color: gray;
+    font-weight: 500;
+}
+
+span.test_name_prof {
+    color: gray;
 }
