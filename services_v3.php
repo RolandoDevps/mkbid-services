@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- css fontawesome -->
-    <link rel="stylesheet" href="fontawesome-all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="fontawesome-all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/fontawesome.min.css">
     
 </head>
 <body>
@@ -26,6 +28,7 @@
     <div class="wrapper-body"  id="main">
         <?php include('includes/header.php') ?>
 
+        <!-- bloc-banniere -->
         <div class="wrapper-banniere">
             <div class="row wrap-banniere">
                 <div class="image-banniere"><img src="images/bg-banniere.jpg" alt=""></div>
@@ -38,6 +41,48 @@
                 </div>
             </div>
         </div>
+        <!-- end bloc-banniere -->
+
+        <div class="wrapper-section-divider">
+            <div class="section-divider"></div>
+        </div>
+
+        <!-- bloc-build-success -->
+        <div class="wrapper-build-success">
+            <div class="container bloc-news-letter">
+
+                <div class="row">
+                    <div class="wrap-title-bloc">
+                        <h3>Build your success as an intelligent enterprise</h3>
+                    </div>
+                </div>
+                <div class="row bloc-news-letter-contain">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xlg-6">
+                        <div class="wrap-image-news-letter">
+                            <img src="images/build-success.jpg" alt="">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xlg-6">
+                        <div class="wrap-text-content-news-letter">
+                            <div class="ds-body  text-content-list ">
+                                <h6>Managing risks and ensuring business continuity</h6>
+                                <p>Keep up to date with the latest information and insights&nbsp;from SAP&nbsp;services and support, including:&nbsp;</p>
+                                <p>Keep up to date with the latest information and insights&nbsp;from SAP&nbsp;services and support, including:&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class="links-news-letter">
+                            <a href="">Read the brochure<i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-see-more-success">
+                    <a href="#">Learn about essential business services from SAP</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- end bloc-build-success -->
 
         <div class="wrapper-section-divider">
             <div class="section-divider"></div>
@@ -48,7 +93,7 @@
             <div class="container bloc-services">
 
                 <div class="row">
-                    <div class="wrap-service-lieb">
+                    <div class="wrap-title-bloc">
                         <h3>Explore  our services</h3>
                     </div>
                 </div>
@@ -163,41 +208,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
-                            <div class="col bloc-service">
-                                <div class="row service-logo">
-                                    <div class="wrap-logo child6">
-                                        <img src="images/service-2.svg" alt="">
-                                    </div>
-                                </div>
-                                <div class="wrap-brief child6">
-                                    <div class="row">
-                                        <h3>Reports & Analytics</h3>
-                                    </div>
-                                    <div class="row">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
-                                    </div>
-                                </div>
-                                <div class="row service-details">
-                                    <a href="">Learn more <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
         <!-- end bbloc-services-mkbid -->
+
         <div class="wrapper-section-divider">
             <div class="section-divider"></div>
         </div>
+
         <!-- bloc-customer-success -->
         <div class="wrapper-customer-success">
             <div class="container">
 
                 <div class="row">
-                    <div class="wrap-service-lieb">
+                    <div class="wrap-title-bloc">
                         <h3>See how customers are succeeding with MK BID</h3>
                     </div>
                 </div>
@@ -255,7 +282,7 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="wrap-service-lieb">
+                    <div class="wrap-title-bloc">
                         <h3>See how customers are succeeding with MK BID</h3>
                     </div>
                 </div>
@@ -313,11 +340,51 @@
             </div>
         </div>
         <!-- end bloc-customer-success -->
+        
         <div class="wrapper-section-divider">
             <div class="section-divider"></div>
         </div>
 
         <?php include('includes/testimonial.php') ?>
+    
+        <div class="wrapper-section-divider">
+            <div class="section-divider"></div>
+        </div>
+
+        <!-- bloc-news-letter -->
+        <div class="wrapper-news-letter">
+            <div class="container bloc-news-letter">
+
+                <div class="row">
+                    <div class="wrap-title-bloc">
+                        <h3>Innovation and Transformation Newsletter</h3>
+                    </div>
+                </div>
+                <div class="row bloc-news-letter-contain">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xlg-6">
+                        <div class="wrap-image-news-letter">
+                            <img src="images/news-letter.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xlg-6">
+                        <div class="wrap-text-content-news-letter">
+                            <div class="ds-body  text-content-list ">
+                                <p>Keep up to date with the latest information and insights&nbsp;from SAP&nbsp;services and support, including:&nbsp;</p>
+                                <ul>
+                                    <li>Useful services and tools</li>
+                                    <li>Customer testimonials and references</li>
+                                    <li>Support and maintenance-related offerings</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="links-news-letter">
+                            <a href="">Subscribe now <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end bloc-news-letters -->
 
         <div class="wrapper-section-divider">
             <div class="section-divider"></div>

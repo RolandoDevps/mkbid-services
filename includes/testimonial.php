@@ -1,7 +1,7 @@
 <div class="container">
 
     <div class="row">
-        <div class="wrap-service-lieb">
+        <div class="wrap-title-bloc">
             <h3>See what customers are saying about MK BID</h3>
         </div>
     </div>

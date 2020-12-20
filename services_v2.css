@@ -12,7 +12,7 @@
 }
 
 .responsive-show.item {
-    width: 33.33%;
+    width: 48.5%;
 }
 
 .bloc-service {
@@ -39,14 +39,15 @@
     margin: 0;
 }
 
-.wrap-service-lieb {
-    max-width: 700px;
+.wrap-title-bloc {
+    /* max-width: 700px; */
+    /* width: 65%; */
     margin: 25px auto;
     padding: 25px 0px;
     text-align: center;
 }
 
-.wrap-service-lieb h3 {
+.wrap-title-bloc h3 {
     font-size: 40px;
 }
 
@@ -80,8 +81,8 @@
 }
 
 .row.wrap-banniere {
-    height: 338px;
-    background: radial-gradient(circle at 75% calc(100% + 20px),#727272 0,#222 90%);
+    /* height: 338px; */
+    /* background: radial-gradient(circle at 75% calc(100% + 20px),#727272 0,#222 90%); */
 }
 
 .row.wrap-banniere {
@@ -130,6 +131,15 @@
     height: 84px;
     background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.04) 100%);
 }
+/***bloc build-success***/
+.wrap-image-news-letter i {
+    font-size: 120px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /****bloc-success****/
 .customer-logo img {
@@ -171,10 +181,36 @@
     border: 1px solid #007db8cf;
 }
 
+/**Bloc news letter**/
+.wrap-image-news-letter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.wrap-image-news-letter img {
+    width: 100%;
+}
+
+.row.bloc-news-letter-contain {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.wrap-text-content-news-letter ul {
+    list-style: square;
+}
+
 /***/
 @media screen and (max-width: 990px) {
     .wrap-customer-success .row {
         justify-content: space-between;
+    }
+    .wrap-title-bloc {
+        width: 65%;
     }
 }
 
