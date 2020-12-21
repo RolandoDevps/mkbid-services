@@ -9,10 +9,10 @@
     <script src="js/jquery-1.11.2.min.js"></script>
 
     <!-- internal projet css links -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" href="css/header2.css">
     <link rel="stylesheet" href="css/testimonial.css">
-    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="css/footer2.css"> 
 
     <!-- external projet css links -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -30,7 +30,7 @@
 <body>
 
     <div class="wrapper-body"  id="main">
-        <?php include('includes/header.php') ?>
+        <?php include('includes/header2.php') ?>
         <!-- bloc-banniere -->
         <div class="wrapper-banniere">
             <div class="annimation-banniere">
@@ -615,7 +615,7 @@
             </div>
         </div>
 
-        <?php include('includes/footer.php') ?>
+        <?php include('includes/footer2.php') ?>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
