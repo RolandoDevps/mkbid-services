@@ -1,4 +1,4 @@
-<div class="wrapper-header" id="main">
+<div class="wrapper-header" id="wrapper_header">
     <div class="container">
         <div class="row wrap-header">
             
@@ -335,6 +335,18 @@
 
     openFormSearch()
 
+    window.onscroll = function() {myFunction()};
+
+        var wrapper_header= document.getElementById("wrapper_header");
+        var sticky = 420;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            wrapper_header.classList.add("sticky");
+        } else {
+            wrapper_header.classList.remove("sticky");
+        }
+    }
     
 
 </script>

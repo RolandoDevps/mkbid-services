@@ -1,12 +1,21 @@
 .wrapper-header {
-    background: #111;
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 4;
 }
 
 .wrap-header a {
     position: relative;
     cursor: pointer;
-    color: #fff !important;
+    color: #4f5b6d !important;
     text-decoration: none !important;
+}
+
+.sticky {
+    background: #e9f4ff!important;
+    transition: 2s easy .1s;
 }
 
 .header-center{
@@ -35,7 +44,7 @@
 }
 
 .header-right svg path {
-    fill: #fff;
+    fill: #4f5b6d;
 }
 
 
@@ -84,7 +93,7 @@
     left: 0;
     height: 4px;
     width: 100%;
-    background: #f0ab00;
+    background: #00c3ff;
 }
 
 /***/
@@ -142,7 +151,7 @@
 }
 
 .close-search-form svg polygon {
-    fill: #fff;
+    fill: #ababab;
 }
 
 .col-11.header-search {
