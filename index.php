@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="fontawesome-all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -31,8 +33,27 @@
         <?php include('includes/header.php') ?>
         <!-- bloc-banniere -->
         <div class="wrapper-banniere">
-            <div class="row wrap-banniere">
-                <!-- <div class="image-banniere"><img src="images/bg-banniere.jpg" alt=""></div> -->
+            <div class="annimation-banniere">
+                <div class="wrap-annimation">
+                    <ul>
+                        <li><img src="images/bg-ban-an1.png" alt=""></li>
+                        <li><img src="images/bg-ban-an2.png" alt=""></li>
+                        <li><img src="images/bg-ban-an3.png" alt=""></li>
+                        <li><img src="images/bg-ban-an4.png" alt=""></li>
+                        <li><img src="images/bg-ban-an5.png" alt=""></li>
+                        <li><img src="images/bg-ban-an6.png" alt=""></li>
+                        <li><img src="images/bg-ban-an7.png" alt=""></li>
+                        <li><img src="images/bg-ban-an8.png" alt=""></li>
+                        <li><img src="images/bg-ban-an9.png" alt=""></li>
+                        <li><img src="images/bg-ban-an10.png" alt=""></li>
+                        <li><img src="images/bg-ban-an11.png" alt=""></li>
+                        <li><img src="images/bg-ban-an9.png" alt=""></li>
+                        <li><img src="images/bg-ban-an12.png" alt=""></li>
+                        <li><img src="images/bg-ban-an13.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrap-banniere">
                 <div class="breacktrumps">
                     <small>Home</small>
                     <p>SERVICES</p>
@@ -63,7 +84,7 @@
                         <li data-target="#carouselPortfolioControls" data-slide-to="5"></li>
                     </ol>
                     <div class="wrap-service">
-                        <div class="responsive-show item active">
+                        <div class="responsive-show item active" data-aos="fade-down" data-aos-duration="1500">
                             <div class="col bloc-service">
                                 <div class="wrap-brief">
                                     <h3>ERP and Finance</h3>
@@ -79,7 +100,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-down" data-aos-duration="1500">
                             <div class="col bloc-service">
                                 <div class="wrap-brief">
                                     <h3>CRM and Customer Experience</h3>
@@ -95,7 +116,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-down" data-aos-duration="1500">
                             <div class="col bloc-service">
                                 <div class="wrap-brief">
                                     <h3>Network and Spend Managemen</h3>
@@ -111,7 +132,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-duration="1500">
                             <div class="col bloc-service">
                                 <div class="wrap-brief">
                                     <h3>Supply Chain Management</h3>
@@ -127,7 +148,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-duration="1500">
                             <div class="col bloc-service">
                                 <div class="wrap-brief">
                                     <h3>HR and People Engagement</h3>
@@ -143,7 +164,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-duration="1500">
                             <div class="col bloc-service">
                                 <div class="wrap-brief">
                                     <h3>Business Technology Platform</h3>
@@ -174,6 +195,11 @@
         </div>
         <!-- bloc-product -->
         <div class="wrapper-product">
+            
+            <div class="scale-spinner-effect left">
+                <div class="scale-spinner-circle circle-1"></div>
+                <div class="scale-spinner-circle circle-2"></div>
+            </div>
             <div class="container bloc-product">
 
                 <div class="row">
@@ -185,12 +211,12 @@
 
                 <div class="wrap-product">
                     <div class="bloc-product">
-                        <div class="product-logo">
+                        <div class="product-logo" data-aos="fade-up" data-aos-delay="50" data-aos-anchor-placement="center-bottom">
                             <div class="wrap-logo-product">
                                 <img src="images/product1.png" alt="">
                             </div>
                         </div>
-                        <div class="wrap-brief">
+                        <div class="wrap-brief" data-aos="fade-right">
                             <div class="">
                                 <h3>SAP S/4HANA</h3>
                             </div>
@@ -198,17 +224,17 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
                             </div>
                         </div>
-                        <div class="wrap-see-more-product">
+                        <div class="wrap-see-more-product" data-aos="fade-right">
                             <a href="">SAP S/4HANA</a>
                         </div>
                     </div>
                     <div class="bloc-product">
-                        <div class="product-logo">
+                        <div class="product-logo"  data-aos="fade-up" data-aos-delay="50" data-aos-anchor-placement="center-bottom">
                             <div class="wrap-logo-product">
                                 <img src="images/product2.png" alt="">
                             </div>
                         </div>
-                        <div class="wrap-brief">
+                        <div class="wrap-brief" data-aos="fade-left">
                             <div class="">
                                 <h3>SAP Cloud Platform</h3>
                             </div>
@@ -216,16 +242,17 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium, animi modi porro obcaecati quis mollitia possimus placeat culpa.</p>
                             </div>
                         </div>
-                        <div class="wrap-see-more-product">
+                        <div class="wrap-see-more-product" data-aos="fade-left">
                             <a href="">SAP Cloud Platform</i></a>
                         </div>
                     </div>
                 </div>
 
             </div>
+
         </div> 
         <div class="wrapper-services">
-
+            
             <div id="carouselProductControls" class="carousel slide container" data-ride="carousel">
                 <ol class="carousel-indicators" style="display: none">
                     <li data-target="#carouselProductControls" data-slide-to="0" class="active"></li>
@@ -236,7 +263,7 @@
                     <li data-target="#carouselProductControls" data-slide-to="5"></li>
                 </ol>
                 <div class="wrap-service">
-                    <div class="responsive-show item active">
+                    <div class="responsive-show item active" data-aos="fade-up" data-aos-delay="50" data-aos-duration="4000">
                         <div class="col bloc-service">
                             <div class="wrap-brief">
                                 <div class="">
@@ -251,7 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="responsive-show item">
+                    <div class="responsive-show item" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">
                         <div class="col bloc-service">
                             <div class="wrap-brief ">
                                 <div class="">
@@ -266,7 +293,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="responsive-show item">
+                    <div class="responsive-show item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2500">
                         <div class="col bloc-service">
                             <div class="wrap-brief ">
                                 <div class="">
@@ -281,7 +308,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="responsive-show item">
+                    <div class="responsive-show item" data-aos="fade-up" data-aos-delay="250" data-aos-duration="2000">
                         <div class="col bloc-service">
                             <div class="wrap-brief ">
                                 <div class="">
@@ -296,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="responsive-show item">
+                    <div class="responsive-show item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
                         <div class="col bloc-service">
                             <div class="wrap-brief ">
                                 <div class="">
@@ -311,7 +338,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="responsive-show item">
+                    <div class="responsive-show item" data-aos="fade-up" data-aos-delay="350" data-aos-duration="3500">
                         <div class="col bloc-service">
                             <div class="wrap-brief ">
                                 <div class="">
@@ -338,6 +365,11 @@
         <div class="wrapper-services">
             <div class="container bloc-services">
 
+                <div class="scale-spinner-effect right">
+                    <div class="scale-spinner-circle circle-1"></div>
+                    <div class="scale-spinner-circle circle-2"></div>
+                </div>
+
                 <div class="row">
                     <div class="wrap-title-bloc">
                         <h3>Technology and Innovation</h3>
@@ -355,7 +387,7 @@
                         <li data-target="#carouselServicesControls" data-slide-to="5"></li>
                     </ol>
                     <div class="wrap-service">
-                        <div class="responsive-show item active">
+                        <div class="responsive-show item active" data-aos="fade-up" data-aos-delay="50" data-aos-duration="4000">
                             <div class="col bloc-service">
                                 <div class="service-logo">
                                     <div class="wrap-logo">
@@ -375,7 +407,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">
                             <div class="col bloc-service">
                                 <div class="service-logo">
                                     <div class="wrap-logo ">
@@ -395,7 +427,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2500">
                             <div class="col bloc-service">
                                 <div class="service-logo">
                                     <div class="wrap-logo ">
@@ -415,7 +447,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-delay="250" data-aos-duration="2000">
                             <div class="col bloc-service">
                                 <div class="service-logo">
                                     <div class="wrap-logo ">
@@ -435,7 +467,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
                             <div class="col bloc-service">
                                 <div class="service-logo">
                                     <div class="wrap-logo ">
@@ -455,7 +487,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="responsive-show item">
+                        <div class="responsive-show item" data-aos="fade-up" data-aos-delay="350" data-aos-duration="3500">
                             <div class="col bloc-service">
                                 <div class="service-logo">
                                     <div class="wrap-logo ">
@@ -535,49 +567,49 @@
                         </svg>
                     </span>
                     <span class="dislike-page">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"><g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                            <g>
-                                <path d="M117.333,10.667h-64C23.936,10.667,0,34.603,0,64v170.667C0,264.064,23.936,288,53.333,288h96V21.461    C140.395,14.72,129.344,10.667,117.333,10.667z" fill="#000000" data-original="#000000" style=""/>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"><g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M117.333,10.667h-64C23.936,10.667,0,34.603,0,64v170.667C0,264.064,23.936,288,53.333,288h96V21.461    C140.395,14.72,129.344,10.667,117.333,10.667z" fill="#000000" data-original="#000000" style=""/>
+                                </g>
                             </g>
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                            <g>
-                                <path d="M512,208c0-18.496-10.581-34.731-26.347-42.667c3.285-6.549,5.013-13.803,5.013-21.333    c0-18.517-10.603-34.752-26.368-42.688c4.885-9.728,6.315-20.928,3.861-32.043C463.381,47.659,443.051,32,419.819,32H224    c-13.995,0-35.968,4.416-53.333,12.608v228.651l2.56,1.301l61.44,133.12V480c0,3.243,1.472,6.315,3.989,8.341    c0.683,0.512,16.512,12.992,38.677,12.992c24.683,0,64-39.061,64-85.333c0-29.184-10.453-65.515-16.981-85.333h131.776    c28.715,0,53.141-21.248,55.637-48.363c1.387-15.211-3.691-29.824-13.653-40.725C506.923,232.768,512,220.821,512,208z" fill="#000000" data-original="#000000" style=""/>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M512,208c0-18.496-10.581-34.731-26.347-42.667c3.285-6.549,5.013-13.803,5.013-21.333    c0-18.517-10.603-34.752-26.368-42.688c4.885-9.728,6.315-20.928,3.861-32.043C463.381,47.659,443.051,32,419.819,32H224    c-13.995,0-35.968,4.416-53.333,12.608v228.651l2.56,1.301l61.44,133.12V480c0,3.243,1.472,6.315,3.989,8.341    c0.683,0.512,16.512,12.992,38.677,12.992c24.683,0,64-39.061,64-85.333c0-29.184-10.453-65.515-16.981-85.333h131.776    c28.715,0,53.141-21.248,55.637-48.363c1.387-15.211-3.691-29.824-13.653-40.725C506.923,232.768,512,220.821,512,208z" fill="#000000" data-original="#000000" style=""/>
+                                </g>
                             </g>
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        <g xmlns="http://www.w3.org/2000/svg">
-                        </g>
-                        </g>
-                    </svg>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            <g xmlns="http://www.w3.org/2000/svg">
+                            </g>
+                            </g>
+                        </svg>
                     </span>
                 </div>
             </div>
