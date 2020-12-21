@@ -9,10 +9,10 @@
     <script src="js/jquery-1.11.2.min.js"></script>
 
     <!-- internal projet css links -->
-    <link rel="stylesheet" href="services_v2.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="testimonial.css">
-    <link rel="stylesheet" href="footer.css"> 
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/testimonial.css">
+    <link rel="stylesheet" href="css/footer.css"> 
 
     <!-- external projet css links -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
