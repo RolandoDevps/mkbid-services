@@ -168,7 +168,7 @@ body{
     box-sizing: border-box;
 }
 
-.wrap-exp-page span svg {
+.wrap-exp-page span img {
     width: 24px;
     height: 24px;
     display: flex;
@@ -196,7 +196,7 @@ body{
     fill: #fff;
 }
 
-.wrap-exp-page span.dislike-page svg {
+.wrap-exp-page span.dislike-page img {
     /* transform: rotateXdeg); */
     transform: scaleX(-1);
 }
@@ -585,10 +585,12 @@ body{
     width: 14px !important;
     height: 14px !important;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 ol.carousel-indicators {
     bottom: -40px;
+    z-index: 2 !important;
 }
 
 .carousel-indicators li.active {
